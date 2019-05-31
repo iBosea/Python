@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 from IPy import *
 i=1
-va=input('请输入你要重复使用的次数:')
+va=input('请输入你要重复使用程序的次数:')
 while i <= int(va):
     ip = raw_input('请输入您的第%s次查询IP地址或网段的值:'%i)
     while len(ip) == 0:
